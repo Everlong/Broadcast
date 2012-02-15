@@ -1,10 +1,8 @@
 name: Broadcast
 main: uk.co.jordanmcqueen.Broadcast.Broadcast
-version: 1.1
+version: 2.1
 description: >
              Broadcasts messages at a set interval.
 commands:
-  stopbroadcast:
-    description: Prevents the broadcasting from continuing.
-  startbroadcast:
-    description: Initiates the broadcasting process.
+  reloadbroadcast:
+    description: Reloads the plugin (Needs broadcast.reload or OP)
